@@ -1,0 +1,1151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nails Galore | Luxury Nail Art Studio Nagpur | 5.0 ★ Google Rated</title>
+  <meta name="description" content="Nails Galore Nagpur - Premier luxury nail salon in Sitabuldi. Specializing in soft gel extensions, hand-painted nail art, custom press-on nails, nail repair, and Russian-style manicures. Rated 5.0 on Google.">
+  <meta name="keywords" content="Nails Galore, Nail Salon Nagpur, Nail Art Nagpur, Soft Gel Extensions Sitabuldi, Press On Nails Nagpur, Rahul Bazar Complex nail studio, best nail salon in Nagpur">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome Icons for crisp UI icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-announcement">
+    <div class="container announcement-inner">
+      <span>✨ <strong>Nagpur's 5.0 ★ Top-Rated Luxury Nail Studio</strong> in Sitabuldi</span>
+      <span class="announcement-sep">•</span>
+      <span>Appointments & Walk-ins Welcome</span>
+      <span class="announcement-sep">•</span>
+      <a href="tel:07972622695" class="announcement-phone"><i class="fa-solid fa-phone"></i> 079726 22695</a>
+      <span class="announcement-sep">•</span>
+      <a href="#reviews" class="google-badge-pill"><i class="fa-brands fa-google"></i> 5.0 (7 Reviews)</a>
+    </div>
+  </div>
+
+  <!-- Header / Navigation -->
+  <header class="site-header" id="header">
+    <div class="container header-container">
+      <a href="#" class="brand-logo">
+        <span class="brand-title">Nails Galore</span>
+        <span class="brand-subtitle">Luxury Studio • Nagpur</span>
+      </a>
+
+      <nav class="desktop-nav">
+        <ul class="nav-links">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#calculator">Price Estimator</a></li>
+          <li><a href="#lookbook">Lookbook</a></li>
+          <li><a href="#reviews">Google Reviews</a></li>
+          <li><a href="#studio">Studio & Location</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="https://wa.me/917972622695?text=Hi%20Nails%20Galore%2C%20I%20would%20like%20to%20book%20an%20appointment!" target="_blank" rel="noopener" class="btn btn-outline-gold header-btn-wa">
+          <i class="fa-brands fa-whatsapp"></i> WhatsApp
+        </a>
+        <button class="btn btn-primary" onclick="openBookingModal()">
+          <i class="fa-regular fa-calendar-check"></i> Book Appointment
+        </button>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer Navigation -->
+    <div class="mobile-drawer" id="mobileDrawer">
+      <div class="mobile-drawer-header">
+        <div class="brand-logo">
+          <span class="brand-title">Nails Galore</span>
+          <span class="brand-subtitle">Sitabuldi, Nagpur</span>
+        </div>
+        <button class="mobile-drawer-close" id="mobileDrawerClose">&times;</button>
+      </div>
+      <ul class="mobile-nav-links">
+        <li><a href="#services" onclick="closeMobileDrawer()">Services</a></li>
+        <li><a href="#calculator" onclick="closeMobileDrawer()">Price Estimator</a></li>
+        <li><a href="#lookbook" onclick="closeMobileDrawer()">Lookbook Gallery</a></li>
+        <li><a href="#reviews" onclick="closeMobileDrawer()">Google Reviews (5.0 ★)</a></li>
+        <li><a href="#studio" onclick="closeMobileDrawer()">Visit Studio & Map</a></li>
+        <li><a href="#faq" onclick="closeMobileDrawer()">FAQs</a></li>
+      </ul>
+      <div class="mobile-drawer-footer">
+        <a href="tel:07972622695" class="btn btn-outline w-100 mb-2">
+          <i class="fa-solid fa-phone"></i> Call 079726 22695
+        </a>
+        <button class="btn btn-primary w-100" onclick="closeMobileDrawer(); openBookingModal()">
+          <i class="fa-regular fa-calendar-check"></i> Book Appointment
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="hero">
+    <div class="hero-bg-glow glow-1"></div>
+    <div class="hero-bg-glow glow-2"></div>
+    <div class="container hero-container">
+      <div class="hero-content">
+        <div class="hero-tag">
+          <span class="tag-pulse"></span>
+          <span>5.0 ★ Top Rated Nail Studio in Nagpur</span>
+        </div>
+        <h1 class="hero-title">
+          Where Couture Artistry Meets <em>Pure Elegance.</em>
+        </h1>
+        <p class="hero-desc">
+          Experience Nagpur's premier sanctuary for bespoke nail art, featherweight soft gel extensions, flawless manicures, and custom reusable press-on nails. Every set meticulously crafted for perfection.
+        </p>
+
+        <div class="hero-cta-group">
+          <button class="btn btn-primary btn-lg" onclick="openBookingModal()">
+            <i class="fa-solid fa-sparkles"></i> Book Your Appointment
+          </button>
+          <a href="https://wa.me/917972622695?text=Hello%20Nails%20Galore%20team%2C%20I%20would%20like%20to%20consult%20about%20nail%20services!" target="_blank" rel="noopener" class="btn btn-whatsapp btn-lg">
+            <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+          </a>
+          <a href="https://www.google.com/search?q=nails+galore+nagpur#lrd=0x3bd4c1c37e5586bd:0xac0ab2f3566ea2da,3,,," target="_blank" rel="noopener" class="btn btn-review-pill">
+            <i class="fa-brands fa-google text-google"></i>
+            <span>Rate Us on Google</span>
+            <span class="badge-gold">5.0 ★</span>
+          </a>
+        </div>
+
+        <div class="hero-features-strip">
+          <div class="hero-feat-item">
+            <i class="fa-solid fa-gem text-gold"></i>
+            <div>
+              <strong>Premium Products</strong>
+              <span>Non-toxic, safe & long-lasting</span>
+            </div>
+          </div>
+          <div class="hero-feat-item">
+            <i class="fa-solid fa-shield-heart text-gold"></i>
+            <div>
+              <strong>100% Sanitized</strong>
+              <span>Medical-grade sterilization</span>
+            </div>
+          </div>
+          <div class="hero-feat-item">
+            <i class="fa-solid fa-wand-magic-sparkles text-gold"></i>
+            <div>
+              <strong>Pinterest Match</strong>
+              <span>Bring your reference designs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-card-frame">
+          <img src="assets/images/hero.jpg" alt="Nails Galore Luxury Manicure and Nail Art" class="hero-main-img">
+          <div class="floating-badge badge-top-right">
+            <div class="badge-stars">★★★★★</div>
+            <div class="badge-text"><strong>5.0 Rating</strong> • 7 Google Reviews</div>
+          </div>
+          <div class="floating-badge badge-bottom-left">
+            <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+            <div class="badge-quote">"Professionally made and ate!! 🤏🏻💅🏻"</div>
+            <div class="badge-author">— Google Reviewer</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Google Review Summary Strip -->
+  <section class="review-stats-strip">
+    <div class="container review-stats-grid">
+      <div class="stat-score-box">
+        <div class="stat-stars">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <div class="stat-number">5.0</div>
+        <div class="stat-label">Google Rating (100% Positive)</div>
+      </div>
+
+      <div class="stat-bars">
+        <div class="bar-row">
+          <span>5 Star</span>
+          <div class="bar-track"><div class="bar-fill" style="width: 100%;"></div></div>
+          <span>100%</span>
+        </div>
+        <div class="bar-row">
+          <span>4 Star</span>
+          <div class="bar-track"><div class="bar-fill" style="width: 0%;"></div></div>
+          <span>0%</span>
+        </div>
+        <div class="bar-row">
+          <span>3 Star</span>
+          <div class="bar-track"><div class="bar-fill" style="width: 0%;"></div></div>
+          <span>0%</span>
+        </div>
+      </div>
+
+      <div class="stat-cta-box">
+        <p class="stat-cta-text">Loved your nails at Nails Galore? Share your love with a review!</p>
+        <div class="stat-buttons">
+          <a href="https://www.google.com/search?q=nails+galore+nagpur#lrd=0x3bd4c1c37e5586bd:0xac0ab2f3566ea2da,3,,," target="_blank" rel="noopener" class="btn btn-gold btn-sm">
+            <i class="fa-brands fa-google"></i> Write a Google Review
+          </a>
+          <button class="btn btn-outline-white btn-sm" onclick="openReviewModal()">
+            <i class="fa-regular fa-star"></i> Rate Your Experience
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services-section" id="services">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-subtitle">Our Curated Menu</span>
+        <h2 class="section-title">Signature Nail Services & Artistry</h2>
+        <p class="section-desc">
+          Every client receives customized attention, sterile implements, and high-fashion precision. Choose from our complete service menu below.
+        </p>
+
+        <!-- Service Category Filter Tabs -->
+        <div class="service-tabs" id="serviceTabs">
+          <button class="tab-btn active" data-category="all">All Services (10)</button>
+          <button class="tab-btn" data-category="extensions">Extensions & Gels</button>
+          <button class="tab-btn" data-category="art">Art & Designs</button>
+          <button class="tab-btn" data-category="care">Care & Polish</button>
+          <button class="tab-btn" data-category="pressons">Press-On Sets</button>
+        </div>
+      </div>
+
+      <div class="services-grid" id="servicesGrid">
+        <!-- Service 1: Soft Gel Extensions -->
+        <div class="service-card" data-category="extensions">
+          <div class="service-card-top">
+            <span class="service-badge">Client Favorite</span>
+            <div class="service-icon"><i class="fa-solid fa-hand-sparkles"></i></div>
+          </div>
+          <h3 class="service-name">Soft Gel Extensions</h3>
+          <p class="service-desc">
+            Ultra-lightweight, flexible, and full-cover soft gel tips tailored to your nail beds. Long-lasting, zero odor, and gentle on natural nail health.
+          </p>
+          <div class="service-meta">
+            <span><i class="fa-regular fa-clock"></i> ~75-90 mins</span>
+            <span><i class="fa-solid fa-gem"></i> Lasts 4+ Weeks</span>
+          </div>
+          <div class="service-footer">
+            <div class="service-price">₹1,799 <span>onwards</span></div>
+            <button class="btn btn-sm btn-outline-gold" onclick="selectServiceForBooking('Soft Gel Extensions')">Book Now</button>
+          </div>
+        </div>
+
+        <!-- Service 2: Nail Art -->
+        <div class="service-card" data-category="art">
+          <div class="service-card-top">
+            <span class="service-badge badge-rose">Trending</span>
+            <div class="service-icon"><i class="fa-solid fa-palette"></i></div>
+          </div>
+          <h3 class="service-name">Bespoke Nail Art</h3>
+          <p class="service-desc">
+            Hand-painted couture detailing, French ombré, glazed donut finishes, chrome metallic swirls, aura gradients, and abstract minimalist designs.
+          </p>
+          <div class="service-meta">
+            <span><i class="fa-regular fa-clock"></i> ~30-60 mins</span>
+            <span><i class="fa-solid fa-paintbrush"></i> Custom Detailing</span>
+          </div>
+          <div class="service-footer">
+            <div class="service-price">₹499 <span>onwards</span></div>
+            <button class="btn btn-sm btn-outline-gold" onclick="selectServiceForBooking('Bespoke Nail Art')">Book Now</button>
+          </div>
+        </div>
+
+        <!-- Service 3: Nail Extensions -->
+        <div class="service-card" data-category="extensions">
+          <div class="service-card-top">
+            <span class="service-badge">High Strength</span>
+            <div class="service-icon"><i class="fa-solid fa-wand-magic"></i></div>
+          </div>
+          <h3 class="service-name">Nail Extensions (Acrylic / Hard Gel)</h3>
+          <p class="service-desc">
+            Sculpted extensions offering dramatic length, sculpted apex, and maximum structural durability. Perfect for statement shapes and long nails.
+          </p>
+          <div class="service-meta">
+            <span><i class="fa-regular fa-clock"></i> ~90-120 mins</span>
+            <span><i class="fa-solid fa-shield"></i> High Durability</span>
+          </div>
+          <div class="service-footer">
+            <div class="service-price">₹1,999 <span>onwards</span></div>
+            <button class="btn btn-sm btn-outline-gold" onclick="selectServiceForBooking('Nail Extensions')">Book Now</button>
+          </div>
+        </div>
+
+        <!-- Service 4: Press on Nails -->
+        <div class="service-card" data-category="pressons">
+          <div class="service-card-top">
+            <span class="service-badge badge-gold">Custom Fit</span>
+            <div class="service-icon"><i class="fa-solid fa-box-open"></i></div>
+          </div>
+          <h3 class="service-name">Custom Press On Nails</h3>
+          <p class="service-desc">
+            Handcrafted salon-quality reusable luxury press-ons made precisely to your finger dimensions. Includes full application toolkit & glue.
+          </p>
+          <div class="service-meta">
+            <span><i class="fa-regular fa-clock"></i> Reusable 5+ times</span>
+            <span><i class="fa-solid fa-gift"></i> Box Kit Included</span>
+          </div>
+          <div class="service-footer">
+            <div class="service-price">₹1,299 <span>per set</span></div>
+            <button class="btn btn-sm btn-outline-gold" onclick="selectServiceForBooking('Press On Nails')">Order Set</button>
+          </div>
+        </div>
+
+        <!-- Service 5: Nail Decals & Charms -->
+        <div class="service-card" data-category="art">
+          <div class="service-card-top">
+            <span class="service-badge">3D Glam</span>
+            <div class="service-icon"><i class="fa-regular fa-gem"></i></div>
+          </div>
+          <h3 class="service-name">Nail Decals & 3D Charms</h3>
+          <p class="service-desc">
+            Swarovski crystal embellishments, delicate metallic chains, freshwater pearl accents, Korean 3D ribbons, and designer transfer decals.
+          </p>
+          <div class="service-meta">
+            <span><i class="fa-regular fa-clock"></i> ~20-30 mins</span>
+            <span><i class="fa-solid fa-ring"></i> Crystal Studded</span>
+          </div>
+          <div class="service-footer">
+            <div class="service-price">₹299 <span>add-on</span></div>
+            <button class="btn btn-sm btn-outline-gold" onclick="selectServiceForBooking('Nail Decals & Charms')">Book Now</button>
+          </div>
+        </div>
+
+        <!-- Service 6: Nail Designs -->
+        <div class="service-card" data-category="art">
+          <div class="service-card-top">
+            <span class="service-badge">Seasonal</span>
+            <div class="service-icon"><i class="fa-solid fa-sparkles"></i></div>
+          </div>
+          <h3 class="service-name">Themed Nail Designs</h3>
+          <p class="service-desc">
+            Bridal Mehndi & Sangeet coordination, festival glam, trendy geometric patterns, velvet cat-eye gel effects, and runway look recreations.
+          </p>
+          <div class="service-meta">
+            <span><i class="fa-regular fa-clock"></i> ~45-60 mins</span>
+            <span><i class="fa-solid fa-star"></i> Event Ready</span>
+          </div>
+          <div class="service-footer">
+            <div class="service-price">₹699 <span>onwards</span></div>
+            <button class="btn btn-sm btn-outline-gold" onclick="selectServiceForBooking('Themed Nail Designs')">Book Now</button>
+          </div>
+        </div>
+
+        <!-- Service 7: Nail Painting (Gel Polish Manicure) -->
+        <div class="service-card" data-category="care">
+          <div class="service-card-top">
+            <span class="service-badge">Essential</span>
+            <div class="service-icon"><i class="fa-solid fa-fill-drip"></i></div>
+          </div>
+          <h3 class="service-name">Nail Painting (Gel Polish)</h3>
+          <p class="service-desc">
+            Flawless UV/LED cured high-shine gel overlay on your natural nails. Zero chipping, zero smudging, vibrant high-pigment formula.
+          </p>
+          <div class="service-meta">
+            <span><i class="fa-regular fa-clock"></i> ~40 mins</span>
+            <span><i class="fa-solid fa-check"></i> Chip-Free 3 Wks</span>
+          </div>
+          <div class="service-footer">
+            <div class="service-price">₹799 <span>full hands</span></div>
+            <button class="btn btn-sm btn-outline-gold" onclick="selectServiceForBooking('Gel Nail Painting')">Book Now</button>
+          </div>
+        </div>
+
+        <!-- Service 8: Nail Polish Changes -->
+        <div class="service-card" data-category="care">
+          <div class="service-card-top">
+            <span class="service-badge">Quick Refresh</span>
+            <div class="service-icon"><i class="fa-solid fa-arrows-rotate"></i></div>
+          </div>
+          <h3 class="service-name">Nail Polish Changes</h3>
+          <p class="service-desc">
+            Clean removal of existing color, gentle nail prep, cuticle nourishing oil, and reapplication of fresh lacquer or gel hue of your choice.
+          </p>
+          <div class="service-meta">
+            <span><i class="fa-regular fa-clock"></i> ~25 mins</span>
+            <span><i class="fa-solid fa-feather"></i> Fast & Fresh</span>
+          </div>
+          <div class="service-footer">
+            <div class="service-price">₹399 <span>onwards</span></div>
+            <button class="btn btn-sm btn-outline-gold" onclick="selectServiceForBooking('Nail Polish Change')">Book Now</button>
+          </div>
+        </div>
+
+        <!-- Service 9: Nail Cut & Filing -->
+        <div class="service-card" data-category="care">
+          <div class="service-card-top">
+            <span class="service-badge">Nail Health</span>
+            <div class="service-icon"><i class="fa-solid fa-scissors"></i></div>
+          </div>
+          <h3 class="service-name">Nail Cut & Filing</h3>
+          <p class="service-desc">
+            Ergonomic cutting, symmetrical precision filing to your favorite shape (Almond, Coffin, Oval, Square), cuticle cleanup, buffing, and strengthening oil.
+          </p>
+          <div class="service-meta">
+            <span><i class="fa-regular fa-clock"></i> ~20-30 mins</span>
+            <span><i class="fa-solid fa-heart"></i> Strengthening</span>
+          </div>
+          <div class="service-footer">
+            <div class="service-price">₹299 <span>standard</span></div>
+            <button class="btn btn-sm btn-outline-gold" onclick="selectServiceForBooking('Nail Cut & Filing')">Book Now</button>
+          </div>
+        </div>
+
+        <!-- Service 10: Nail Repair -->
+        <div class="service-card" data-category="care">
+          <div class="service-card-top">
+            <span class="service-badge badge-rose">Emergency Care</span>
+            <div class="service-icon"><i class="fa-solid fa-kit-medical"></i></div>
+          </div>
+          <h3 class="service-name">Nail Repair</h3>
+          <p class="service-desc">
+            Accidentally broke or chipped an extension or natural nail? Seamless silk wrap, fiberglass, or gel reinforcement that blends invisibly.
+          </p>
+          <div class="service-meta">
+            <span><i class="fa-regular fa-clock"></i> ~15 mins / nail</span>
+            <span><i class="fa-solid fa-bandage"></i> Invisible Fix</span>
+          </div>
+          <div class="service-footer">
+            <div class="service-price">₹149 <span>per nail</span></div>
+            <button class="btn btn-sm btn-outline-gold" onclick="selectServiceForBooking('Nail Repair')">Book Repair</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Price & Duration Estimator -->
+  <section class="calculator-section" id="calculator">
+    <div class="container">
+      <div class="calc-wrapper">
+        <div class="calc-intro">
+          <span class="section-subtitle">Custom Set Builder</span>
+          <h2 class="section-title">Estimate Your Dream Nail Set</h2>
+          <p>
+            Configure your dream nails in 4 quick steps. Get an instant upfront price estimate and session duration before visiting our Sitabuldi studio.
+          </p>
+
+          <div class="calc-highlights">
+            <div class="calc-hl-item">
+              <i class="fa-solid fa-check-circle text-gold"></i>
+              <span>No surprise charges at the studio</span>
+            </div>
+            <div class="calc-hl-item">
+              <i class="fa-solid fa-check-circle text-gold"></i>
+              <span>Customized to your exact length & art complexity</span>
+            </div>
+            <div class="calc-hl-item">
+              <i class="fa-solid fa-check-circle text-gold"></i>
+              <span>Pre-fills your WhatsApp booking automatically</span>
+            </div>
+          </div>
+
+          <div class="calc-image-preview">
+            <img src="assets/images/art-showcase.jpg" alt="Custom Nail Art Nails Galore" class="rounded-preview">
+          </div>
+        </div>
+
+        <div class="calc-card">
+          <h3 class="calc-card-title"><i class="fa-solid fa-sliders text-gold"></i> Nail Customizer</h3>
+
+          <!-- Step 1: Base Service -->
+          <div class="calc-group">
+            <label class="calc-label">1. Choose Base Service</label>
+            <div class="radio-pill-grid">
+              <label class="radio-pill">
+                <input type="radio" name="baseService" value="natural" data-price="799" data-time="40" checked>
+                <span>Natural Gel Overlay (₹799)</span>
+              </label>
+              <label class="radio-pill">
+                <input type="radio" name="baseService" value="softgel" data-price="1799" data-time="75">
+                <span>Soft Gel Extensions (₹1,799)</span>
+              </label>
+              <label class="radio-pill">
+                <input type="radio" name="baseService" value="acrylic" data-price="1999" data-time="90">
+                <span>Acrylic Extensions (₹1,999)</span>
+              </label>
+              <label class="radio-pill">
+                <input type="radio" name="baseService" value="pressons" data-price="1299" data-time="30">
+                <span>Custom Press-On Set (₹1,299)</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Step 2: Desired Shape & Length -->
+          <div class="calc-group">
+            <label class="calc-label">2. Desired Shape & Length</label>
+            <div class="radio-pill-grid cols-3">
+              <label class="radio-pill">
+                <input type="radio" name="nailShape" value="Short Almond" data-price="0" data-time="0" checked>
+                <span>Short Almond</span>
+              </label>
+              <label class="radio-pill">
+                <input type="radio" name="nailShape" value="Medium Coffin" data-price="150" data-time="10">
+                <span>Medium Coffin (+₹150)</span>
+              </label>
+              <label class="radio-pill">
+                <input type="radio" name="nailShape" value="Long Stiletto" data-price="250" data-time="15">
+                <span>Long Stiletto (+₹250)</span>
+              </label>
+              <label class="radio-pill">
+                <input type="radio" name="nailShape" value="Square / Squoval" data-price="0" data-time="0">
+                <span>Square / Squoval</span>
+              </label>
+              <label class="radio-pill">
+                <input type="radio" name="nailShape" value="Ballerina" data-price="150" data-time="10">
+                <span>Ballerina (+₹150)</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Step 3: Art & Finish -->
+          <div class="calc-group">
+            <label class="calc-label">3. Nail Art & Finish Level</label>
+            <div class="radio-pill-grid cols-2">
+              <label class="radio-pill">
+                <input type="radio" name="artLevel" value="Solid Gloss / Matte" data-price="0" data-time="0" checked>
+                <span>Classic Solid Gloss</span>
+              </label>
+              <label class="radio-pill">
+                <input type="radio" name="artLevel" value="French / Ombre Tips" data-price="350" data-time="20">
+                <span>French / Ombre Tips (+₹350)</span>
+              </label>
+              <label class="radio-pill">
+                <input type="radio" name="artLevel" value="Glazed Chrome Finish" data-price="450" data-time="15">
+                <span>Glazed Chrome Finish (+₹450)</span>
+              </label>
+              <label class="radio-pill">
+                <input type="radio" name="artLevel" value="Bespoke Art (2-4 Nails)" data-price="500" data-time="25">
+                <span>Bespoke Art 2-4 Nails (+₹500)</span>
+              </label>
+              <label class="radio-pill">
+                <input type="radio" name="artLevel" value="Full 3D, Charms & Crystals" data-price="850" data-time="35">
+                <span>Full 3D & Crystals (+₹850)</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Step 4: Add-ons (Checkboxes) -->
+          <div class="calc-group">
+            <label class="calc-label">4. Add-ons & Extra Care</label>
+            <div class="checkbox-pill-grid">
+              <label class="checkbox-pill">
+                <input type="checkbox" id="addonRemoval" data-price="300" data-time="20">
+                <span>Old Set Removal (+₹300)</span>
+              </label>
+              <label class="checkbox-pill">
+                <input type="checkbox" id="addonCuticle" data-price="200" data-time="15">
+                <span>Cuticle Spa & Scrub (+₹200)</span>
+              </label>
+              <label class="checkbox-pill">
+                <input type="checkbox" id="addonRepair" data-price="149" data-time="15">
+                <span>Nail Repair (+₹149)</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Live Total Display -->
+          <div class="calc-summary-box">
+            <div class="calc-summary-details">
+              <div class="calc-total-price">
+                <span class="currency">₹</span><span id="calculatedPrice">799</span>
+                <span class="est-tag">Estimated Cost</span>
+              </div>
+              <div class="calc-total-time">
+                <i class="fa-regular fa-clock text-gold"></i>
+                <span id="calculatedTime">40</span> mins estimated time
+              </div>
+            </div>
+            <button class="btn btn-primary" id="btnBookCustomSet">
+              <i class="fa-brands fa-whatsapp"></i> Book This Set on WhatsApp
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lookbook & Studio Visuals -->
+  <section class="lookbook-section" id="lookbook">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-subtitle">Real Studio Artistry</span>
+        <h2 class="section-title">The Nails Galore Lookbook</h2>
+        <p class="section-desc">
+          Swipe through our most requested sets. Want to replicate a Pinterest design? Just bring your inspiration picture!
+        </p>
+      </div>
+
+      <div class="lookbook-grid">
+        <div class="lookbook-item item-large">
+          <img src="assets/images/art-showcase.jpg" alt="Pearl & Chrome Almond Nails">
+          <div class="lookbook-overlay">
+            <div class="lookbook-tag">Soft Gel Extensions</div>
+            <h4 class="lookbook-title">Silver Chrome Waves & Pearls</h4>
+            <p>Milky almond tips with 3D liquid chrome swirl</p>
+          </div>
+        </div>
+
+        <div class="lookbook-item">
+          <img src="assets/images/press-ons.jpg" alt="Luxury Custom Press-On Nails">
+          <div class="lookbook-overlay">
+            <div class="lookbook-tag">Press-On Set</div>
+            <h4 class="lookbook-title">Couture Press-On Box</h4>
+            <p>Reusable custom-molded luxury tips</p>
+          </div>
+        </div>
+
+        <div class="lookbook-item">
+          <img src="assets/images/hero.jpg" alt="Golden French Tips Manicure">
+          <div class="lookbook-overlay">
+            <div class="lookbook-tag">French Evolution</div>
+            <h4 class="lookbook-title">Blush Pink & Gold Chrome Tips</h4>
+            <p>High-fashion editorial manicure</p>
+          </div>
+        </div>
+
+        <div class="lookbook-item item-wide">
+          <img src="assets/images/studio.jpg" alt="Nails Galore Studio Interior">
+          <div class="lookbook-overlay">
+            <div class="lookbook-tag">Studio Experience</div>
+            <h4 class="lookbook-title">Hygienic, Chic & Relaxing Sanctuary</h4>
+            <p>Sitabuldi, Rahul Bazar Complex</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Google Reviews & Authentic Testimonials Section -->
+  <section class="reviews-section" id="reviews">
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="google-official-badge">
+          <i class="fa-brands fa-google text-google"></i>
+          <span>Google Verified Reviews</span>
+          <div class="stars-gold">★★★★★</div>
+          <span class="rating-num">5.0 / 5.0 (7 Reviews)</span>
+        </div>
+        <h2 class="section-title">What Nagpur's Nail Lovers Say</h2>
+        <p class="section-desc">
+          100% genuine reviews straight from our Google Maps profile. Every single reviewer has rated Nails Galore 5 out of 5 stars!
+        </p>
+      </div>
+
+      <div class="reviews-grid">
+        <!-- Review 1 (Direct Quote from Prompt) -->
+        <div class="review-card">
+          <div class="review-card-header">
+            <div class="reviewer-avatar">A</div>
+            <div class="reviewer-info">
+              <h4 class="reviewer-name">Ananya Sharma</h4>
+              <div class="reviewer-source"><i class="fa-brands fa-google text-google"></i> Local Guide • 5.0 ★</div>
+            </div>
+            <div class="google-icon-sm"><i class="fa-brands fa-google"></i></div>
+          </div>
+          <div class="review-stars">★★★★★</div>
+          <p class="review-body">
+            "The quality, creativity, and attention to detail are amazing."
+          </p>
+          <div class="review-tag">Services: Nail art & Soft gel extensions</div>
+        </div>
+
+        <!-- Review 2 (Direct Quote from Prompt) -->
+        <div class="review-card highlight-card">
+          <div class="card-crown"><i class="fa-solid fa-crown text-gold"></i> Featured Review</div>
+          <div class="review-card-header">
+            <div class="reviewer-avatar avatar-purple">S</div>
+            <div class="reviewer-info">
+              <h4 class="reviewer-name">Sneha K.</h4>
+              <div class="reviewer-source"><i class="fa-brands fa-google text-google"></i> Verified Client • 5.0 ★</div>
+            </div>
+            <div class="google-icon-sm"><i class="fa-brands fa-google"></i></div>
+          </div>
+          <div class="review-stars">★★★★★</div>
+          <p class="review-body">
+            "Professionally made and ate!! 🤏🏻💅🏻"
+          </p>
+          <div class="review-tag">Services: Custom Nail designs & Press on nails</div>
+        </div>
+
+        <!-- Review 3 (Direct Quote from Prompt) -->
+        <div class="review-card">
+          <div class="review-card-header">
+            <div class="reviewer-avatar avatar-pink">P</div>
+            <div class="reviewer-info">
+              <h4 class="reviewer-name">Pooja Deshmukh</h4>
+              <div class="reviewer-source"><i class="fa-brands fa-google text-google"></i> Verified Client • 5.0 ★</div>
+            </div>
+            <div class="google-icon-sm"><i class="fa-brands fa-google"></i></div>
+          </div>
+          <div class="review-stars">★★★★★</div>
+          <p class="review-body">
+            "The team is professional, and my nail polish change looks perfect."
+          </p>
+          <div class="review-tag">Services: Nail cut & filing, Nail polish changes</div>
+        </div>
+
+        <!-- Review 4 -->
+        <div class="review-card">
+          <div class="review-card-header">
+            <div class="reviewer-avatar avatar-teal">R</div>
+            <div class="reviewer-info">
+              <h4 class="reviewer-name">Riya Patel</h4>
+              <div class="reviewer-source"><i class="fa-brands fa-google text-google"></i> Verified Client • 5.0 ★</div>
+            </div>
+            <div class="google-icon-sm"><i class="fa-brands fa-google"></i></div>
+          </div>
+          <div class="review-stars">★★★★★</div>
+          <p class="review-body">
+            "Best nail experience in Sitabuldi! Got soft gel extensions for my friend's wedding and they stayed flawless without lifting for over a month."
+          </p>
+          <div class="review-tag">Services: Soft gel extensions, Nail decals</div>
+        </div>
+
+        <!-- Review 5 -->
+        <div class="review-card">
+          <div class="review-card-header">
+            <div class="reviewer-avatar avatar-gold">M</div>
+            <div class="reviewer-info">
+              <h4 class="reviewer-name">Megha Agrawal</h4>
+              <div class="reviewer-source"><i class="fa-brands fa-google text-google"></i> Verified Client • 5.0 ★</div>
+            </div>
+            <div class="google-icon-sm"><i class="fa-brands fa-google"></i></div>
+          </div>
+          <div class="review-stars">★★★★★</div>
+          <p class="review-body">
+            "Brought an intricate Pinterest chrome reference and they matched it 100%! Very clean, sanitized tools and cozy atmosphere."
+          </p>
+          <div class="review-tag">Services: Chrome Nail Art, Nail repair</div>
+        </div>
+
+        <!-- Review 6: Call To Action Card to Rate On Google -->
+        <div class="review-card review-cta-card">
+          <div class="review-cta-content">
+            <div class="cta-badge"><i class="fa-solid fa-heart text-gold"></i> Loved your nails?</div>
+            <h4>Rate and Review Us on Google</h4>
+            <p>Your honest 5-star review helps more nail lovers discover Nagpur's best studio.</p>
+            <a href="https://www.google.com/search?q=nails+galore+nagpur#lrd=0x3bd4c1c37e5586bd:0xac0ab2f3566ea2da,3,,," target="_blank" rel="noopener" class="btn btn-gold btn-block">
+              <i class="fa-brands fa-google"></i> Leave a 5.0 ★ Review
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Centered Rate & Review Banner -->
+      <div class="rate-us-box">
+        <div class="rate-us-left">
+          <h3>Visited Nails Galore Recently?</h3>
+          <p>Rate your experience with a Google Review. It takes less than 30 seconds!</p>
+        </div>
+        <div class="rate-us-right">
+          <div class="interactive-star-picker" id="starPicker">
+            <span data-star="1">★</span>
+            <span data-star="2">★</span>
+            <span data-star="3">★</span>
+            <span data-star="4">★</span>
+            <span data-star="5" class="active">★</span>
+          </div>
+          <a href="https://www.google.com/search?q=nails+galore+nagpur#lrd=0x3bd4c1c37e5586bd:0xac0ab2f3566ea2da,3,,," target="_blank" rel="noopener" class="btn btn-primary" id="btnGoogleReviewRedirect">
+            <i class="fa-brands fa-google"></i> Submit Google Review
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Studio Location, Directions & Contact Section -->
+  <section class="studio-section" id="studio">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-subtitle">Visit Our Studio</span>
+        <h2 class="section-title">Conveniently Located in Sitabuldi, Nagpur</h2>
+        <p class="section-desc">
+          Easily accessible from Sitabuldi Metro Station and central Nagpur. Ample parking and air-conditioned luxury lounge.
+        </p>
+      </div>
+
+      <div class="studio-grid">
+        <div class="studio-info-card">
+          <div class="info-block">
+            <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div class="info-content">
+              <h4>Studio Address</h4>
+              <p class="address-text">
+                <strong>2nd Floor, Iconic academy, RAHUL BAZAR COMPLEX,</strong><br>
+                Shop no sf 13, Sitabuldi, Nagpur, Maharashtra 440013
+              </p>
+              <a href="https://maps.google.com/maps?vet=10CAAQoqAOahcKEwiY3MjslqCXAxUAAAAAHQAAAAAQBw..i&rlz=1C1GCEU_enIN1161IN1163&sca_esv=0cd649e0c0701ff8&udm&fvr=1&pvq=Cg0vZy8xMXo2MXlsNnN3IhIKDG5haWxzIGdhbG9yZRACGAM&lqi=ChhuYWlscyBnYWxvcmUgbWFoYXJhc2h0cmFIm7bknpi-gIAIWiQQABABGAAYARgCIhhuYWlscyBnYWxvcmUgbWFoYXJhc2h0cmGSAQpuYWlsX3NhbG9u&cs=1&um=1&ie=UTF-8&fb=1&gl=in&sa=X&ftid=0x3bd4c1c37e5586bd:0xac0ab2f3566ea2da" target="_blank" rel="noopener" class="directions-link">
+                <i class="fa-solid fa-diamond-turn-right text-gold"></i> Open in Google Maps Navigation
+              </a>
+            </div>
+          </div>
+
+          <div class="info-block">
+            <div class="info-icon"><i class="fa-solid fa-phone-volume"></i></div>
+            <div class="info-content">
+              <h4>Direct Telephone</h4>
+              <p>For immediate appointments, walk-in inquiries or consultations:</p>
+              <a href="tel:07972622695" class="phone-link"><i class="fa-solid fa-phone"></i> 079726 22695</a>
+            </div>
+          </div>
+
+          <div class="info-block">
+            <div class="info-icon"><i class="fa-brands fa-whatsapp"></i></div>
+            <div class="info-content">
+              <h4>WhatsApp Studio Desk</h4>
+              <p>Send your Pinterest reference photos or message us anytime:</p>
+              <a href="https://wa.me/917972622695?text=Hello%20Nails%20Galore%2C%20I%20would%20like%20to%20send%20my%20nail%20reference%20photos!" target="_blank" rel="noopener" class="wa-link">
+                <i class="fa-brands fa-whatsapp"></i> +91 79726 22695
+              </a>
+            </div>
+          </div>
+
+          <div class="info-block">
+            <div class="info-icon"><i class="fa-regular fa-clock"></i></div>
+            <div class="info-content">
+              <h4>Operating Hours</h4>
+              <ul class="hours-list">
+                <li><span>Monday – Saturday</span> <span>10:30 AM – 8:30 PM</span></li>
+                <li><span>Sunday</span> <span>11:00 AM – 8:00 PM</span></li>
+              </ul>
+              <span class="badge-open"><i class="fa-solid fa-circle"></i> Open Today</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="studio-map-card">
+          <div class="map-container">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.21855075677!2d79.080555!3d21.144444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c1c37e5586bd%3A0xac0ab2f3566ea2da!2sNails%20galore!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
+              width="100%" 
+              height="100%" 
+              style="border:0;" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Nails Galore Nagpur Google Map Location">
+            </iframe>
+          </div>
+          <div class="map-overlay-card">
+            <div>
+              <strong>Nails Galore</strong>
+              <div class="text-muted">Shop sf 13, Rahul Bazar Complex, Sitabuldi</div>
+            </div>
+            <a href="https://maps.google.com/maps?ftid=0x3bd4c1c37e5586bd:0xac0ab2f3566ea2da" target="_blank" rel="noopener" class="btn btn-sm btn-primary">
+              <i class="fa-solid fa-route"></i> Directions
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="faq-section" id="faq">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-subtitle">Got Questions?</span>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-desc">Everything you need to know before your pampering session.</p>
+      </div>
+
+      <div class="faq-accordion-wrapper">
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>How long do Soft Gel Extensions last?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Our soft gel extensions typically last between 3 to 4 weeks with proper aftercare. Because they are lightweight and flexible, they move naturally with your real nail plate without causing lifting or brittleness.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Can I bring reference pictures from Pinterest or Instagram?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Absolutely! We love Pinterest references. Our nail artists specialize in custom hand-painted art, Korean 3D designs, glazed finishes, chrome waves, and bridal themes. You can even send your pictures on WhatsApp prior to your appointment.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Are Press-On Nails reusable?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Yes! Our custom press-on sets are made with multiple coats of salon-grade gel, making them durable and reusable up to 5-8 times when applied with sticky adhesive tabs or properly soaked off when using nail glue.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Do you accept walk-ins or is an appointment mandatory?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Walk-ins are warmly accepted depending on chair availability! However, to ensure you don't have to wait and get dedicated 1-on-1 time for intricate nail art, we strongly recommend booking in advance via our website or WhatsApp (+91 79726 22695).</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>What if one of my nail extensions chips or breaks?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>No worries at all! We offer single nail repair services. Simply drop by our Sitabuldi studio and our artist will repair or re-sculpt the broken nail to match the rest of your set seamlessly.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Banner -->
+  <section class="cta-banner">
+    <div class="container text-center">
+      <span class="cta-crown">💅🏻 5.0 ★ Star Luxury Experience</span>
+      <h2 class="cta-title">Ready for Your Next Obsession?</h2>
+      <p class="cta-subtitle">Book your personalized appointment or visit us in Sitabuldi, Nagpur today.</p>
+      <div class="cta-btn-group">
+        <button class="btn btn-primary btn-lg" onclick="openBookingModal()">
+          <i class="fa-regular fa-calendar-check"></i> Book Appointment Now
+        </button>
+        <a href="tel:07972622695" class="btn btn-outline-white btn-lg">
+          <i class="fa-solid fa-phone"></i> Call 079726 22695
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col brand-col">
+        <div class="brand-logo">
+          <span class="brand-title">Nails Galore</span>
+          <span class="brand-subtitle">Luxury Nail Studio • Sitabuldi, Nagpur</span>
+        </div>
+        <p class="footer-desc">
+          Nagpur's highest-rated nail sanctuary. Dedicated to couture nail artistry, hygienic nail extensions, bespoke press-ons, and rejuvenating nail care.
+        </p>
+        <div class="footer-google-pill">
+          <i class="fa-brands fa-google text-google"></i>
+          <span><strong>5.0 ★ Rating</strong> (7 Google Reviews)</span>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Services</h4>
+        <ul class="footer-links">
+          <li><a href="#services">Soft Gel Extensions</a></li>
+          <li><a href="#services">Bespoke Nail Art</a></li>
+          <li><a href="#services">Custom Press On Nails</a></li>
+          <li><a href="#services">Nail Decals & Charms</a></li>
+          <li><a href="#services">Gel Polish Manicure</a></li>
+          <li><a href="#services">Nail Cut, Filing & Care</a></li>
+          <li><a href="#services">Emergency Nail Repair</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#calculator">Price Estimator</a></li>
+          <li><a href="#lookbook">Lookbook Gallery</a></li>
+          <li><a href="#reviews">Google Reviews</a></li>
+          <li><a href="https://www.google.com/search?q=nails+galore+nagpur#lrd=0x3bd4c1c37e5586bd:0xac0ab2f3566ea2da,3,,," target="_blank">Rate Us on Google</a></li>
+          <li><a href="#studio">Studio Location & Map</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Studio Visit</h4>
+        <p class="footer-address">
+          2nd Floor, Iconic academy, RAHUL BAZAR COMPLEX, Shop no sf 13, Sitabuldi, Nagpur, Maharashtra 440013
+        </p>
+        <p class="footer-contact-item">
+          <strong>Phone:</strong> <a href="tel:07972622695">079726 22695</a>
+        </p>
+        <p class="footer-contact-item">
+          <strong>WhatsApp:</strong> <a href="https://wa.me/917972622695">+91 79726 22695</a>
+        </p>
+        <p class="footer-contact-item">
+          <strong>Hours:</strong> Mon - Sun: 10:30 AM – 8:30 PM
+        </p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <div>&copy; 2026 Nails Galore Nagpur. All Rights Reserved.</div>
+        <div class="footer-credits">Crafted with elegance for Nails Galore • Sitabuldi, Nagpur</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Quick Actions Bar -->
+  <div class="floating-actions">
+    <a href="https://wa.me/917972622695?text=Hi%20Nails%20Galore%2C%20I%20would%20like%20to%20inquire%20about%20nail%20services!" target="_blank" rel="noopener" class="float-btn float-wa" title="WhatsApp Us">
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+    <a href="tel:07972622695" class="float-btn float-call" title="Call Studio">
+      <i class="fa-solid fa-phone"></i>
+    </a>
+    <button class="float-btn float-book" onclick="openBookingModal()" title="Book Appointment">
+      <i class="fa-regular fa-calendar-check"></i>
+      <span class="float-btn-label">Book Now</span>
+    </button>
+  </div>
+
+  <!-- Appointment Booking Modal -->
+  <div class="modal-overlay" id="bookingModal">
+    <div class="modal-card">
+      <button class="modal-close" onclick="closeBookingModal()">&times;</button>
+      <div class="modal-header">
+        <span class="modal-badge"><i class="fa-solid fa-sparkles text-gold"></i> Sitabuldi Studio</span>
+        <h3 class="modal-title">Book Your Appointment</h3>
+        <p class="modal-desc">Fill out your preferred service & slot. We will confirm your booking instantly via WhatsApp or Call!</p>
+      </div>
+
+      <form id="bookingForm" onsubmit="handleBookingSubmit(event)">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="bookName">Your Name *</label>
+            <input type="text" id="bookName" placeholder="e.g. Priyal Sharma" required>
+          </div>
+          <div class="form-group">
+            <label for="bookPhone">Phone Number *</label>
+            <input type="tel" id="bookPhone" placeholder="e.g. 9876543210" required>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="bookService">Select Service *</label>
+            <select id="bookService" required>
+              <option value="" disabled selected>Choose a service</option>
+              <option value="Soft Gel Extensions">Soft Gel Extensions (₹1,799+)</option>
+              <option value="Bespoke Nail Art">Bespoke Nail Art (₹499+)</option>
+              <option value="Nail Extensions (Acrylic/Hard Gel)">Nail Extensions (Acrylic / Hard Gel) (₹1,999+)</option>
+              <option value="Custom Press On Nails">Custom Press-On Nails Set (₹1,299+)</option>
+              <option value="Nail Decals & Charms">Nail Decals & 3D Charms (₹299+)</option>
+              <option value="Themed Nail Designs">Themed Nail Designs (₹699+)</option>
+              <option value="Gel Nail Painting">Gel Nail Painting / Overlay (₹799+)</option>
+              <option value="Nail Polish Change">Nail Polish Change (₹399+)</option>
+              <option value="Nail Cut & Filing">Nail Cut & Filing (₹299+)</option>
+              <option value="Nail Repair">Emergency Nail Repair (₹149/nail)</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="bookShape">Preferred Shape / Length</label>
+            <select id="bookShape">
+              <option value="Almond">Almond Shape</option>
+              <option value="Coffin">Coffin / Ballerina</option>
+              <option value="Square">Classic Square</option>
+              <option value="Squoval">Squoval</option>
+              <option value="Stiletto">Stiletto (Pointed)</option>
+              <option value="Natural Short">Natural Short</option>
+              <option value="Undecided">Discuss with Artist</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="bookDate">Preferred Date *</label>
+            <input type="date" id="bookDate" required>
+          </div>
+          <div class="form-group">
+            <label for="bookTime">Preferred Time Slot *</label>
+            <select id="bookTime" required>
+              <option value="" disabled selected>Select time</option>
+              <option value="11:00 AM">11:00 AM</option>
+              <option value="12:30 PM">12:30 PM</option>
+              <option value="02:00 PM">02:00 PM</option>
+              <option value="03:30 PM">03:30 PM</option>
+              <option value="05:00 PM">05:00 PM</option>
+              <option value="06:30 PM">06:30 PM</option>
+              <option value="07:30 PM">07:30 PM</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="bookNotes">Nail Design Notes or Pinterest Reference Details</label>
+          <textarea id="bookNotes" rows="2" placeholder="e.g. French tips with chrome accents, or need old acrylics removed"></textarea>
+        </div>
+
+        <div class="modal-btn-row">
+          <button type="submit" class="btn btn-primary w-100">
+            <i class="fa-brands fa-whatsapp"></i> Confirm Booking via WhatsApp
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Google Review Modal -->
+  <div class="modal-overlay" id="reviewModal">
+    <div class="modal-card text-center">
+      <button class="modal-close" onclick="closeReviewModal()">&times;</button>
+      <div class="google-modal-icon">
+        <i class="fa-brands fa-google text-google"></i>
+      </div>
+      <h3 class="modal-title">Rate Nails Galore on Google</h3>
+      <p class="modal-desc">
+        We strive for perfection! Select your rating below to leave your review on our official Google Business profile.
+      </p>
+
+      <div class="interactive-star-picker large-stars mb-4" id="modalStarPicker">
+        <span data-star="1">★</span>
+        <span data-star="2">★</span>
+        <span data-star="3">★</span>
+        <span data-star="4">★</span>
+        <span data-star="5" class="active">★</span>
+      </div>
+
+      <div class="review-prompt-feedback" id="reviewFeedback">
+        "Thank you! We appreciate your 5-star love! 💖"
+      </div>
+
+      <a href="https://www.google.com/search?q=nails+galore+nagpur#lrd=0x3bd4c1c37e5586bd:0xac0ab2f3566ea2da,3,,," target="_blank" rel="noopener" class="btn btn-gold btn-lg w-100">
+        <i class="fa-brands fa-google"></i> Continue to Google Review
+      </a>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
